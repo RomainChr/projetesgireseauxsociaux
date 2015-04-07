@@ -5,6 +5,7 @@
     const APPID = "451317511698280";
     const APPSECRET = "defa21c582018c4dc20e7a955b8a2e5c";
     
+    FacebookSession::setDefaultApplication(APPID, APPSECRET);
 ?>
 
 
