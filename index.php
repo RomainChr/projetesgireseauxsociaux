@@ -4,7 +4,7 @@
     ini_set("display_errors", 1);
     session_start();
 
-    require "facebook-php-sdk-v4-4.0-dev/autoload.php"
+    require "facebook-php-sdk-v4-4.0-dev/autoload.php";
 
     const APPID = "451317511698280";
     const APPSECRET = "defa21c582018c4dc20e7a955b8a2e5c";
