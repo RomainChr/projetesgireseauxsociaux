@@ -73,9 +73,9 @@
         if($session)
         {
             $_SESSION['fb_token'] = (string) $session->getAccessToken();
-            $user = new FacebookRequest($session,"GET","/me")->getGraphObject(Graph)
+            $user = new FacebookRequest($session,"GET","/me")->getGraphObject(Graph);
             $request_user_execute = $request_user->execute();
-            $user = $request_user_executed->getGraph
+            $user = $request_user_executed->getGraph;
             
             //var_dump($session['fb_taken']);
             echo "Bonjour ".$user->getName();
