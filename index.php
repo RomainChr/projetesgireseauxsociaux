@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<!--
+
    <script>
       window.fbAsyncInit = function() {
         FB.init({
@@ -26,7 +26,6 @@
          fjs.parentNode.insertBefore(js, fjs);
        }(document, 'script', 'facebook-jssdk'));
     </script>
--->
     <h1>Mon App</h1>
     <div
         class="fb-like"
